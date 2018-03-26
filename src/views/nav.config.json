@@ -1,0 +1,46 @@
+{
+  "nav":[
+
+    {
+      "path": "/",
+      "name": "首页",
+      "iconCls": "iconfont icon-icon_changyongcaidan",
+      "leaf": "true",
+      "children": [
+          { "path": "/main",  "name": "机构概括1" }
+      ]
+    },
+    {
+      "path": "/",
+      "name": "首页",
+      "iconCls": "iconfont icon-icon_zhengfuyingyong",
+      "leaf": "true",
+      "children": [
+          { "path": "/tdgk", "component": "tdgk", "name": "团队概括1" }
+      ]
+    },
+    {
+      "path": "/",
+      "component": "Home",
+      "name": "居民护理1",
+      "iconCls": "iconfont icon-icon_dashujufenxi",
+      "children": [
+          { "path": "/yjyjm", "component": "Yqyjm", "name": "已签约居民1"},
+          { "path": "/wqyjm", "component": "Wqyjm", "name": "未签约居民1" },
+          { "path": "/zjjm", "component": "Zjjm", "name": "转介居民1" },
+          { "path": "/yyjm", "component": "Yyqy", "name": "预约签约1" }
+      ]
+    },
+    {
+      "path": "/",
+      "component": "Home",
+      "iconCls": "iconfont icon-icon_zhengfuyingyong",
+      "leaf": "true",
+      "children": [
+          { "path": "/dynamic/:id", "component": "dynamic", "name":"json配置" }
+      ]
+  }
+
+
+  ]
+}
